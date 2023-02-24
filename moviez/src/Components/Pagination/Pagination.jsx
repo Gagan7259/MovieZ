@@ -1,7 +1,7 @@
 import React from "react"
 import ReactPaginate from "react-paginate";
 import './pagination.css';
-const PaginationComponent = (props)=>{
+const Pagination = (props)=>{
     const {maxnum, activenum, handleClick} = props
     const forcePageActive = parseInt(activenum) - 1;
     const handlePageClick = (e)=>{
@@ -41,4 +41,4 @@ const PaginationComponent = (props)=>{
     )
 }
 
-export  default PaginationComponent;
+export  default Pagination;

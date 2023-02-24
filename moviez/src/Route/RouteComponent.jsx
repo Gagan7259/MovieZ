@@ -9,6 +9,7 @@ import Details from '../Container/Details/Details'
 
 import Header from '../Components/Header/Header'
 import Footer from '../Components/Footer/Footer'
+import ContactContainer from '../Container/Contact/Contact'
 const RouteComponent = () => {
   return (
     <BrowserRouter>
@@ -20,6 +21,10 @@ const RouteComponent = () => {
         <Route path='/series' element={<TvSeries />} />
         <Route path='/search' element={<Search />} />
         <Route path='/details/:movieid/:mediatype' element={<Details />} />
+        <Route path='/contact' element={<ContactContainer />} />
+        <Route path='/footer' element={<Footer />} />
+
+
       </Routes>
       <Footer />
     </BrowserRouter>

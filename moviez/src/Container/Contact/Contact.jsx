@@ -25,12 +25,12 @@ const ContactContainer = () => {
             <ul className='socialIconsList'>
 
               <li>
-                <a rel="noreferrer" href="https://www.linkedin.com/in/rohitazad/" target="_blank">
+                <a rel="noreferrer" href="https://www.linkedin.com/in/gagan-kumar-s-b2168a254/" target="_blank">
                   <BsLinkedin />
                 </a>
               </li>
               <li>
-                <a rel="noreferrer" href="https://github.com/rohitazad" target="_blank">
+                <a rel="noreferrer" href="https://github.com/Gagan7259" target="_blank">
                   <BsGithub />
                 </a>
               </li>
